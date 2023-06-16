@@ -1,0 +1,85 @@
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.todo-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.todo-input,
+.todo-textarea {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #45a049;
+}
+
+.todo-list {
+  margin-top: 20px;
+}
+
+.todo-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.task-number {
+  margin-top: 0;
+}
+
+.task-title {
+  margin-bottom: 5px;
+}
+
+.task-status {
+  margin-bottom: 10px;
+}
+
+.task-status.completed {
+  color: green;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.toggle-button,
+.delete-button {
+  margin-left: 10px;
+  padding: 5px 10px;
+}
+
+.toggle-button {
+  background-color: #009688;
+  color: #fff;
+  border: none;
+}
+
+.delete-button {
+  background-color: #ff5722;
+  color: #fff;
+  border: none;
+}
